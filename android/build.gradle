@@ -18,7 +18,8 @@ rootProject.allprojects {
 }
 apply plugin: 'com.android.library'
 android {
-    compileSdkVersion 30
+    compileSdkVersion 33
+    namespace 'com.edoufla.flutter_bluetooth_serial'
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
